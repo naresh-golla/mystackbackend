@@ -1,0 +1,1 @@
+exports.devUrl = "mongodb://root:Password1@ds211268.mlab.com:11268/mystack";
