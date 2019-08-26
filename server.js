@@ -29,13 +29,16 @@ app.get('/getUser/:username', (req, res) => {
 });
 
 app.post('/createUser', (req, res) => {
-    var userInfo = new UserInfo(req.body);
-    userInfo.save((err) => {
-        if (err) {
-            res.sendStatus(500);
-        }
-        io.emit('userInfo', req.body);
-        res.sendStatus(200);
+    UserInfo.remove({username: req.body.username}).then((docs) => {
+        var userInfo = new UserInfo(req.body);
+        userInfo.save((err) => {
+            console.log("error", err)
+            if (err) {
+                res.sendStatus(500);
+            }
+            io.emit('userInfo', req.body);
+            res.sendStatus(200);
+        });
     });
 });
 

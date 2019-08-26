@@ -9,5 +9,8 @@ module.exports = mongoose.model('UserInfo', {
     work: Object,
     design: String,
     socialprofile: Array,
-    pic: String
+    pic: String,
+    interests: Array,
+    hobby: Array,
+    domain: String
 });
