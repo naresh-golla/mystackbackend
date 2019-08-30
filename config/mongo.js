@@ -1,1 +1,1 @@
-exports.devUrl = "mongodb+srv://nareshgolla:1234567890@1@cluster0-rkltr.mongodb.net/test?retryWrites=true&w=majority";
+exports.devUrl = "mongodb+srv://nareshgolla:1234567890%401@cluster0-rkltr.mongodb.net/test?retryWrites=true&w=majority";
