@@ -1,1 +1,1 @@
-exports.devUrl = "mongodb://root:Password1@ds211268.mlab.com:11268/mystack";
+exports.devUrl = "mongodb+srv://nareshgolla:1234567890@1@cluster0-rkltr.mongodb.net/test?retryWrites=true&w=majority";
