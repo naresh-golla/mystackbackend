@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/spicynaresh/mystackbackend#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "lodash": "^4.17.15",
     "mongoose": "^5.6.9",
     "socket.io": "^2.2.0"
